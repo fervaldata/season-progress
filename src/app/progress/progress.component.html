@@ -1,0 +1,8 @@
+<h2 style="text-align: center">Información de Temporada</h2>
+
+<div class="box-progress" style="text-align: center">
+  <p>Nos encontramos en la temporada de {{currentSeason.SeasonName}}.</p>
+  <p>Han pasado {{currentDay}} días y quedan {{daysToFinish}} restantes.</p>
+
+  <progress id="file" max="{{daysToFinish}}" value="{{currentDay}}"> </progress> {{totalProgress}}%
+</div>
